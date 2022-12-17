@@ -16,7 +16,7 @@ def Menu_Principal():
     
     tk.Button(janela, text="Excluir endereco",command=excluir_edereco).grid(row=6, column=8, sticky=tk.W, pady=8)
 
-    tk.Button(janela, text="Excluri conta",command=excluir_conta).grid(row=7, column=8, sticky=tk.W,pady=8)
+    tk.Button(janela, text="Excluir conta",command=excluir_conta).grid(row=7, column=8, sticky=tk.W,pady=8)
 
     tk.Button(janela, text="Gerar novo usuario", command=Janela_cadastro).grid(row=2, column=8, sticky=tk.W, pady=4)
 
